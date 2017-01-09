@@ -1,0 +1,10 @@
+{
+  "name": "Exoskeleton Mark II",
+  "version": "1.0.0",
+  "title": "Exoskeleton Mark II",
+  "author": "xotxa",
+  "homepage": "localhost",
+  "dependencies": ["base"],
+  "description": "Adds new item - Exoskeleton Mark II with enchanced properties.",
+  "factorio_version":"0.14"
+}
