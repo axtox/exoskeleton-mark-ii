@@ -1,10 +1,10 @@
 {
   "name": "Exoskeleton Mark II",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "title": "Exoskeleton Mark II",
   "author": "xotxa",
   "homepage": "localhost",
   "dependencies": ["base"],
-  "description": "Adds new equipment - Exoskeleton Mark II with enhanced properties (inventory slots +60, speed movement x2, log. slots +5 and trash slots +10). Just like in real life exoskeletons expands human capabilities to carry more and move faster.",
+  "description": "Adds new equipment - Exoskeleton Mark II with enhanced properties (inventory slots +60, speed movement x2 (stackable), log. slots +5 and trash slots +10). Just like in real life exoskeletons expands human capabilities to carry more and move faster.",
   "factorio_version":"0.14"
 }

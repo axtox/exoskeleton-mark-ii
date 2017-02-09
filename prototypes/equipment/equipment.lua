@@ -20,7 +20,7 @@ data:extend({
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_consumption = "1400W",
+		energy_consumption = "650kW",
 		movement_bonus = 1.0,
 		categories = {"armor"}
 	}
