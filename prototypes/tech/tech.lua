@@ -11,7 +11,7 @@ data:extend({
 				recipe = "exoskeleton-mark-ii"
 			}
 		},
-		prerequisites = {"exoskeleton-equipment"},
+		prerequisites = {"exoskeleton-equipment", "speed-module-3"},
 		unit =
 		{
 			count = 200,
@@ -20,7 +20,7 @@ data:extend({
 				{"science-pack-1", 1},
 				{"science-pack-2", 2},
 				{"science-pack-3", 3},
-				{"alien-science-pack", 3}
+				{"high-tech-science-pack", 3}
 			},
 			time = 60
 		},
