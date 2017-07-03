@@ -85,7 +85,7 @@ end
 -- Exoskeleton Mark II equipment in it (at least one copy).
 -- @param player The player whom modifiers will be updated
 function update_modifier_status(player)
-	if player == nil and player.character == nil then
+	if player == nil or player.character == nil then
 		return
 	end
 	local armor_inventory = player.get_inventory(defines.inventory.player_armor);
