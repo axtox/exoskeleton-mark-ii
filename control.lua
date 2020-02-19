@@ -48,11 +48,11 @@ function enable_modifiers(player)
 	if player.character_inventory_slots_bonus ~= 60 then
 		player.character_inventory_slots_bonus  = 60
 	end
-	if player.character_logistic_slot_count_bonus ~= 5 then
-		player.character_logistic_slot_count_bonus = 5
+	if player.character_logistic_slot_count_bonus ~= 6 then
+		player.character_logistic_slot_count_bonus = 6
 	end
-	if player.character_trash_slot_count_bonus ~= 10 then
-		player.character_trash_slot_count_bonus = 10
+	if player.character_trash_slot_count_bonus ~= 12 then
+		player.character_trash_slot_count_bonus = 12
 	end
 	if player.character_mining_speed_modifier ~= 0.3 then
 		player.character_mining_speed_modifier = 0.3
