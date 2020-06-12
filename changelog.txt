@@ -1,0 +1,96 @@
+---------------------------------------------------------------------------------------------------
+Version: 5.0.0
+Date: 2020.06.05
+  Features:
+    - Upgrade to Factorio 0.18.
+    - Fixed API-references (0.18.30 api change).
+  Graphics:
+    - New sprite image for exoskeleton.
+  Scripting:
+    - Code reorganization.
+---------------------------------------------------------------------------------------------------
+Version: 4.1.0
+Date: 2020.02.20
+  Features:
+    - Increased modifiers to prevent visual misalignment (logistic +6, trash +12).
+  Translation:
+    - Aligned all locales and descriptions.
+---------------------------------------------------------------------------------------------------
+Version: 4.0.0
+Date: 2020.02.19
+  Features:
+    - Transited mod to 0.17 version of Factorio by @PaladinFallen.
+    - Removed tool belt extension.
+    - Code aligned with API change.
+  Graphics:
+    - Thumbnail added.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 2018.01.09
+  Features:
+    - Upgrade to Factorio 0.16.
+    - Edited item prototype to include 'icon_size' property.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 2018.01.09
+  Translation:
+    - Japanese and Korean languages are added.
+    - Mod description translate and mod name in Russian locale added.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 2017.10.03
+  Bugfixes:
+    - Inaccessible 'player.character' bug fix.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 2017.09.07
+  Bugfixes:
+    - No character while in free game (or in some other mode) bug fix.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2017.07.03
+  Scripting:
+    - Major code refactoring.
+    - Changed modifiers re-enabling by using only one method.
+    - Added comments to new methods.
+    - This refactor solves a lot of possible logic and other bugs.
+  Info:
+    - Mod description and technology description modified.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2017.06.07
+  Features:
+    - Upgrade to Factorio 0.15.
+    - Modified technology and recipe to suit new 0.15 Factorio API.
+    - Removed spaces in locale file for new parser.
+  Scripting:
+    - Comments for all methods using LuaDoc methodology.
+    - New logic in on_config_changed event handler.
+    - Simplified code and method usages.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2017.02.17
+  Info:
+    - Added information about quickbar increasement in description.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2017.02.09
+  Balancing:
+    - Exoskeleton Mark II will now require 650kW.
+  Translation:
+    - Added Russian translation and descriptions.
+  Info:
+    - Technology description modified.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2017.01.09
+  Info:
+    - Mod description and technology description modified.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2017.01.09
+  Features:
+    - New Equipment added - Exoskeleton Mark II with all the bonuses.
+    - Exoskeleton Mark II technology added.
+  Graphics:
+    - Added Exoskeleton Mark II technology picture and equipment sprites.
