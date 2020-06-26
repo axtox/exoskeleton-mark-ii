@@ -2,7 +2,7 @@
 Version: 5.2.0
 Date: 2020.06.26
   Features:
-    - Removed logistic slot bonus due to new GUI.
+    - Removed logistic slot bonus due to new GUI (thanks to @ISISBradberryYT).
     - Changed trash slot number due to new GUI.
 ---------------------------------------------------------------------------------------------------
 Version: 5.1.0
