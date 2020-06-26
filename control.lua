@@ -34,10 +34,9 @@ function update_modifiers(player)
 	end
 end
 
---- Enables all modifiers for this player (player) 
--- The modifiers values are: 
+--- Enables all modifiers for this player (player)
+-- The modifiers values are:
 -- character_inventory_slots_bonus = 60, which means +60 inventory slots
--- character_logistic_slot_count = 5, which adds +5 logistic inventory slots 
 -- character_trash_slot_count_bonus = 10, which adds +10 trash inventory slots
 -- character_mining_speed_modifier = 0.3, which speeds up the mining speed +30%
 -- @param player Player whom modifiers must be updated
@@ -45,11 +44,8 @@ function enable_modifiers(player)
 	if player.character_inventory_slots_bonus ~= 60 then
 		player.character_inventory_slots_bonus  = 60
 	end
-	if player.character_logistic_slot_count ~= 6 then
-		player.character_logistic_slot_count = 6
-	end
-	if player.character_trash_slot_count_bonus ~= 12 then
-		player.character_trash_slot_count_bonus = 12
+	if player.character_trash_slot_count_bonus ~= 10 then
+		player.character_trash_slot_count_bonus = 10
 	end
 	if player.character_mining_speed_modifier ~= 0.3 then
 		player.character_mining_speed_modifier = 0.3
@@ -59,13 +55,11 @@ end
 --- Disables all modifiers for this player (player) 
 -- The modifiers values are: 
 -- character_inventory_slots_bonus = 0, which means +0 inventory slots
--- character_logistic_slot_count = 0, which adds +0 logistic inventory slots 
 -- character_trash_slot_count_bonus = 0, which adds +0 trash inventory slots
 -- character_mining_speed_modifier = 0, which speeds up the mining speed +0%
 -- @param player Player whom modifiers must be updated
 function disable_modifiers(player)
 	player.character_inventory_slots_bonus  = 0
-	player.character_logistic_slot_count = 0
 	player.character_trash_slot_count_bonus = 0
 	player.character_mining_speed_modifier = 0
 end
