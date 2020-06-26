@@ -1,11 +1,11 @@
 {
   "name": "Exoskeleton Mark II",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "title": "Exoskeleton Mark II",
   "author": "axtox",
   "contact": "https://mods.factorio.com/mods/axtox/Exoskeleton%20Mark%20II/discussion",
   "homepage": "https://mods.factorio.com/mods/axtox/Exoskeleton%20Mark%20II",
   "dependencies": ["base"],
-  "description": "Adds new equipment - Exoskeleton Mark II with enhanced properties (inventory slots +60, speed movement x2 (stackable), logistic slots +6 and trash slots +12, mining speed +30%). Just like in real life exoskeletons expands human capabilities to carry more and move faster.",
+  "description": "Adds new equipment - Exoskeleton Mark II with enhanced properties (inventory slots +60, speed movement x2 (stackable) and trash slots +10, mining speed +30%). Just like in real life exoskeletons expands human capabilities to carry more and move faster.",
   "factorio_version":"0.18"
 }
