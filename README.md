@@ -3,10 +3,10 @@ Exoskeleton Mark II factorio mod adds new equipment item - 'Exoskeleton Mark II'
 
 Type: Mod</br>
 Name: Exoskeleton Mark II</br>
-Mod version: 5.2.0</br>
+Mod version: 6.0.0</br>
 Dependencies: base</br>
 Description: Adds new equipment - Exoskeleton Mark II with enhanced properties (inventory slots +60, speed movement x2 (stackable) and trash slots +10, mining speed +30%). Just like in real life exoskeletons expands human capabilities to carry more and move faster.</br>
-Factorio version: 0.18.*
+Factorio version: 1.1.*
 
 ### Forum link
 [Exoskeleton Mark II @ forums.factorio.com](https://forums.factorio.com/viewtopic.php?f=93&t=39645&p=235794#p235794)
