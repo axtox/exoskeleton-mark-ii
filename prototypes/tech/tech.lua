@@ -3,7 +3,7 @@ data:extend({
 		type = "technology",
 		name = "exoskeleton-mark-ii-tech",
 		icon_size = 128,
-		icon = "__Exoskeleton Mark II__/graphics/exoskeleton-mark-ii-tech.png",
+		icon = "__Exoskeleton Mark II__/graphics/technology/exoskeleton-mark-ii-equipment.png",
 		effects =
 		{
 			{
