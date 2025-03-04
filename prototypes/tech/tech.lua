@@ -2,8 +2,8 @@ data:extend({
 	{
 		type = "technology",
 		name = "exoskeleton-mark-ii-tech",
-		icon_size = 128,
-		icon = "__Exoskeleton Mark II__/graphics/technology/exoskeleton-mark-ii-equipment.png",
+		icons = util.technology_icon_constant_equipment("__Exoskeleton Mark II__/graphics/technology/exoskeleton-mark-ii-equipment.png"),
+		prerequisites = {"exoskeleton-equipment", "speed-module-3"},
 		effects =
 		{
 			{
@@ -11,7 +11,6 @@ data:extend({
 				recipe = "exoskeleton-mark-ii"
 			}
 		},
-		prerequisites = {"exoskeleton-equipment", "speed-module-3"},
 		unit =
 		{
 			count = 200,
@@ -25,6 +24,6 @@ data:extend({
 			time = 60
 		},
 	 	upgrade = true,
-	 	order = "g-h"
+	 	order = "g-hb"
 	}
 })
