@@ -4,7 +4,7 @@ data:extend({
 		name = "exoskeleton-mark-ii",
 		sprite = 
 		{
-			filename = "__Exoskeleton Mark II__/graphics/exoskeleton-mark-ii-sprite.png",
+			filename = "__Exoskeleton Mark II__/graphics/equipment/exoskeleton-mark-ii-equipment.png",
 			width = 64,
 			height = 128,
 			priority = "medium"
