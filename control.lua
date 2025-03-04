@@ -1,4 +1,4 @@
---- Event handler for all eqipment-oriented events, that has player_index event argument
+--- Event handler for all equipment-oriented events, that has player_index event argument
 -- Starts update modifiers state sequence for this player
 -- @param player_index Index of player that raised event
 function on_equipment_changed(event_args)
@@ -79,7 +79,7 @@ end
 
 --- New equipment placed to armor grid event handler
 -- Tries to enable modifiers (@see enable_modifiers) for current player
--- if equiped item is Exoskeleton Mark II
+-- if equipped item is Exoskeleton Mark II
 script.on_event(defines.events.on_player_placed_equipment, on_equipment_changed)
 
 --- Equipment removed from armor grid event handler
@@ -88,14 +88,14 @@ script.on_event(defines.events.on_player_placed_equipment, on_equipment_changed)
 -- Also re-enables modifiers in case if removed item is not last in grid
 script.on_event(defines.events.on_player_removed_equipment, on_equipment_changed)
 
---- Armor removed from player inventroy or another changes made to equipments
+--- Armor removed from player inventory or another changes made to equipments
 -- Tries to disable modifiers (@see enable_modifiers) for current player
 -- if removed item is Exoskeleton Mark II or armor itself. 
 -- Also re-enables modifiers in case if new armor contains Exoskeleton Mark II
 script.on_event(defines.events.on_player_armor_inventory_changed, on_equipment_changed)
 
 --- Configuration changed event handler
--- Updates Exoskeleton Mark II recepie and technologie
+-- Updates Exoskeleton Mark II recipe and technology
 script.on_configuration_changed(function(event)
 	if event.mod_changes ~= nil then
 		local changes = event.mod_changes["Exoskeleton Mark II"]
