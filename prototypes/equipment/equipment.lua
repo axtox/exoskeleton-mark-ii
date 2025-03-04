@@ -22,7 +22,7 @@ data:extend({
 			usage_priority = "secondary-input"
 		},
 		energy_consumption = "650kW",
-		movement_bonus = 1.0,
+		movement_bonus = 0.6,
 		categories = {"armor"}
 	}
 })
