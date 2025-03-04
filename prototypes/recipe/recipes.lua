@@ -2,14 +2,15 @@ data:extend({
  {
     type = "recipe",
     name = "exoskeleton-mark-ii",
-    enabled = "false",
+    enabled = false,
+    energy_required = 30,
     ingredients = 
     {
-      {"processing-unit",50},
-      {"electric-engine-unit",150},
-      {"steel-plate",200},
-      {"speed-module-3", 3}
+      {type = "item", name = "processing-unit", amount = 50},
+      {type = "item", name = "electric-engine-unit", amount = 150},
+      {type = "item", name = "steel-plate", amount = 200},
+      {type = "item", name = "speed-module-3", amount = 3}
     },
-    result = "exoskeleton-mark-ii"
+    results = {{type="item", name="exoskeleton-mark-ii", amount=1}}
   },
 })

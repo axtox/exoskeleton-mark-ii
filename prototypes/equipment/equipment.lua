@@ -5,9 +5,10 @@ data:extend({
 		sprite = 
 		{
 			filename = "__Exoskeleton Mark II__/graphics/equipment/exoskeleton-mark-ii-equipment.png",
-			width = 64,
-			height = 128,
-			priority = "medium"
+			width = 128,
+			height = 256,
+			priority = "medium",
+			scale = 0.5
 		},
 		shape =
 		{
