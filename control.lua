@@ -6,8 +6,8 @@ function on_equipment_changed(event_args)
 end
 
 --- Update status of modifiers (disable or enable) based on armor type and grid contents
--- This method does all checkings that needed to verify if player has to have modifiers or not.
--- For enabling modifiers player must be not nil, has to wear armor with grid that contains
+-- This method does all the checks that are needed to verify if a modifiers should be applied or not.
+-- To enable modifiers player must not be nil, have to wear armor with grid that contains
 -- Exoskeleton Mark II equipment in it (at least one copy).
 -- @param player The player whom modifiers will be updated
 function update_modifiers(player)
@@ -16,12 +16,12 @@ function update_modifiers(player)
 	end
 
 	local armor_inventory = player.get_inventory(defines.inventory.character_armor);
-	if armor_inventory == nil or armor_inventory.is_empty() then -- cheking if armor itself is equipped and not empty
+	if armor_inventory == nil or armor_inventory.is_empty() then -- check if armor itself is equipped and not empty
 		disable_modifiers(player)
 		return
 	end
 
-	local armor = armor_inventory[1] -- getting the armor itself from armor inventory cell (basicly it has only one cell, which is first)
+	local armor = armor_inventory[1] -- getting the armor itself from armor inventory cell (basically it has only one cell, which is first)
 	if armor == nil or not armor.valid or armor.grid == nil or not armor.grid.valid then -- checking if armor has a valid grid (not all armors has a grid)
 		disable_modifiers(player)
 		return
