@@ -36,13 +36,13 @@ end
 
 --- Enables all modifiers for this player (player)
 -- The modifiers values are:
--- character_inventory_slots_bonus = 60, which means +60 inventory slots
+-- character_inventory_slots_bonus = 20, which means +20 inventory slots
 -- character_trash_slot_count_bonus = 10, which adds +10 trash inventory slots
 -- character_mining_speed_modifier = 0.3, which speeds up the mining speed +30%
 -- @param player Player whom modifiers must be updated
 function enable_modifiers(player)
-	if player.character_inventory_slots_bonus ~= 60 then
-		player.character_inventory_slots_bonus  = 60
+	if player.character_inventory_slots_bonus ~= 20 then
+		player.character_inventory_slots_bonus  = 20
 	end
 	if player.character_trash_slot_count_bonus ~= 10 then
 		player.character_trash_slot_count_bonus = 10
