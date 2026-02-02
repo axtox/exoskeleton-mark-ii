@@ -101,7 +101,7 @@ script.on_configuration_changed(function(event)
 		local changes = event.mod_changes["Exoskeleton Mark II"]
 		if changes ~= nil then
 			for _, force in pairs(game.forces) do
-				force.technologies["exoskeleton-mark-ii-tech"].reload()
+				force.technologies["exoskeleton-mark-ii"].reload()
 				force.recipes["exoskeleton-mark-ii"].reload()
 				force.print("Exoskeleton Mark II mod has been updated!")
 				if force.players ~= nil then -- if force has players, update thair armor inventory to recalculate bonuses

@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "technology",
-		name = "exoskeleton-mark-ii-tech",
+		name = "exoskeleton-mark-ii",
 		icons = util.technology_icon_constant_equipment("__Exoskeleton Mark II__/graphics/technology/exoskeleton-mark-ii-equipment.png"),
 		prerequisites = {"exoskeleton-equipment", "speed-module-3"},
 		effects =
