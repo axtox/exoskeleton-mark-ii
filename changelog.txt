@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 7.0.0
+Date: 2025.03.04
+  Features:
+    - Upgrade to Factorio 2.0
+    - Reduced some of the Exoskeleton's enhancements like the speed and inventory bonus
+  Graphics:
+    - Icons changed to a black carbon-style
+  Scripting:
+    - Rephrased comments section in the code
+  Info:
+    - Name of the technology changed, migration added
+---------------------------------------------------------------------------------------------------
 Version: 6.0.0
 Date: 2021.01.22
   Features:
